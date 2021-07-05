@@ -21,6 +21,7 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
+    padding: 24px;
 }
 
 h1 {
@@ -73,4 +74,6 @@ a+a {
 
 #logo {
     margin-top: 72px;
+    width: 70%;
+    max-width: 400px;
 }
