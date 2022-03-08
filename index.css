@@ -1,14 +1,14 @@
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
 
 @font-face {
     font-family: "IBMPlexSansKRSemiBold";
     src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-SemiBold.woff")
-      format("woff");
+        format("woff");
 }
 @font-face {
     font-family: "IBMPlexSansKRMedium";
     src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff")
-      format("woff");
+        format("woff");
 }
 
 body {
@@ -37,7 +37,7 @@ h1 {
     margin: 0px;
 }
 
-#message p+p {
+#message p + p {
     margin-top: 12px;
     opacity: 0.7;
 }
@@ -45,19 +45,19 @@ h1 {
 a {
     font-family: IBMPlexSansKRMedium;
     margin-top: 12px;
-    color: #ED0C80;
+    color: #ed0c80;
 }
 
 a:visited {
-    color: #ED0C80;
+    color: #ed0c80;
 }
 
-a+a {
+a + a {
     margin-top: 0px;
 }
 
 #info {
-    font-family: IBMPlexSansKRMedium;   
+    font-family: IBMPlexSansKRMedium;
     margin-top: 20px;
 }
 
