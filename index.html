@@ -1,25 +1,46 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>한국디지털미디어고등학교</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <h1>학교 홈페이지 장애가 발생하여 현재 복구 중에 있습니다</h1>
-    <br>
-    <div id="message">
-        <p>홈페이지 이용에 불편을 드려 죄송합니다. <br>
-            빠른 시일내에 정상화하도록 하겠습니다.</p>
-        <p id="boss">- 한국디지털미디어고등학교장 -</p>
-    </div>
-    <div id="info">
-        <p>위치 : 경기도 안산시 단원구 와동 사세충열로 94</p>
-        <p>전화 : 031-363-7800</p>
-    </div>
-    <img src="./dimigo.svg" alt="" id="logo">
-    <img src="./bg.svg" alt="" id="bg">
-</body>
-</html>
+<html lang="ko"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>한국디지털미디어고등학교</title> <style>
+@import
+url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendarddynamic-subset.css");
+@font-face { font-family: "IBMPlexSansKRSemiBold"; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2007@1.0/IBMPlexSansKR-SemiBold.woff") format("woff");
+}
+@font-face { font-family: "IBMPlexSansKRMedium"; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2007@1.0/IBMPlexSansKR-Medium.woff") format("woff");
+} body {
+margin: 0px; font-size: 20px; font-family: Pretendard; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; text-align: center;
+} h1 {font-family: IBMPlexSansKRSemiBold;
+font-size: 28px;
+}
+#message {
+line-height: 32px;
+}
+#message p {
+margin: 0px;
+}
+#message p + p {
+margin-top: 12px;
+opacity: 0.7;
+}
+#boss {
+font-family: IBMPlexSansKRMedium;
+color: #c00d6a;
+}
+#info {
+font-family: IBMPlexSansKRMedium;
+margin-top: 20px;
+}
+#info p {
+margin: 6px 0px;
+}
+#bg {
+position: fixed;
+bottom: 0px;
+width: 100%;
+left: 0px;
+}#logo {
+margin-top: 30px; max-width: 100px;
+}
+</style> </head> <body>
+<h1>디미고인, 디미고 라이프 서비스에 장애가 발생하여 현재 복구 중에 있습니다
+</h1> <br> <div id="message"> <p>서비스 이용에 불편을 드려 죄송합니다. <br> 빠른 시일내에 정상화하도록 하겠습니다.</p>
+<p id="boss">- DIN, 한국디지털미디어고등학교 인트라넷 개발팀 -</p>
+</div> <div id="info"> <p>문의 : 3414 민유 (카카오톡 아이디 : minyou03)</p>
+</div> <img src="https://github.com/min-uuu/broken-dimigo/blob/master/dinlogo.png?raw=true" alt="" id="logo"> <img src="https://raw.githubusercontent.com/min-uuu/brokendimigo/691e6a61f1f2224ca4f5e6f17739ac5c1583f78a/bg.svg" alt="" id="bg"> </body> </html>
