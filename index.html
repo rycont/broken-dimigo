@@ -21,8 +21,8 @@
 
         body {
             margin: 0px;
-            font-size: 20px;
-            font-family: Pretendard;
+            font-size: 2.5vmin;
+            font-family: IBMPlexSansKRSemiBold;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -33,34 +33,23 @@
 
         h1 {
             font-family: IBMPlexSansKRSemiBold;
-            font-size: 28px;
+            font-size: 3vmin;
+            padding-bottom: 0;
         }
 
-        #message {
-            line-height: 32px;
+        #team {
+            font-family: IBMPlexSansKRMedium;
+            color: #c00d6a;
         }
 
-        #message p {
-            margin: 0px;
-        }
-
-        #message p + p {
-            margin-top: 12px;
-            opacity: 0.7;
-        }
-
-        #boss {
+        #service {
             font-family: IBMPlexSansKRMedium;
             color: #c00d6a;
         }
 
         #info {
             font-family: IBMPlexSansKRMedium;
-            margin-top: 20px;
-        }
-
-        #info p {
-            margin: 6px 0px;
+            margin-top: 2vmax;
         }
 
         #bg {
@@ -71,21 +60,33 @@
         }
 
         #logo {
-            margin-top: 30px;
+            margin-top: 3vmax;
             max-width: 100px;
         }
+
+        @media (pointer:coarse) {
+            body {
+                font-size: 2vmax;
+            }
+            h1 {
+                font-size: 2.5vmax;
+            }
+        }
+
+
     </style>
 </head>
 <body>
-    <h1>디미고인, 디미고라이프 서비스에 장애가 발생하여 현재 복구 중에 있습니다.</h1>
+    <h1>디미고인 서비스에 장애가 발생하여 <br>
+        현재 복구 중에 있습니다.</h1>
     <br>
     <div id="message">
         <p>서비스 이용에 불편을 드려 죄송합니다.<br>
             빠른 시일내에 정상화하도록 하겠습니다.</p>
-        <p id="boss">- 디미고 인트라넷 개발팀, DIN -</p>
+        <p id="team">- 디미고 인트라넷 개발팀, DIN -</p>
     </div>
     <div id="info">
-        <p>문의 : 3414 민유 (카카오톡 아이디 : minyou03)</p>
+        <p>문의 : 3414 민유 (카카오톡 : minyou03)</p>
     </div>
     <img src="https://github.com/min-uuu/broken-dimigo/blob/master/din-logo.png?raw=true" alt="" id="logo">
     <img src="https://raw.githubusercontent.com/min-uuu/broken-dimigo/691e6a61f1f2224ca4f5e6f17739ac5c1583f78a/bg.svg" alt="" id="bg">
